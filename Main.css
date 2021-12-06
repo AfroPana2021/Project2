@@ -5,7 +5,10 @@ html {background-color:aquamarine}
  body { 
 display: grid;
 grid-auto-columns: 2fr 1fr;
-grid-template-columns: auto;
+grid-template-areas: "header header"
+                        ""
+    
+    
 }
 .grid-container {
   display: grid;
@@ -37,9 +40,9 @@ nav a:active {
 }   
 <style>
 div.gallery {
-  margin: 5px;
+  margin: 1px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 100px;
 }
   
