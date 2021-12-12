@@ -8,7 +8,7 @@ body {
                          "footer   footer";
 grid-column-gap: 15px;
 }
-h1{ font: 30px}
+h1{ font: 50px}
 section > contactInfo {
     align-self: auto;
 }
@@ -122,5 +122,5 @@ nav.horizontalNavigation a {
 }
 .card
 
-footer {background-color:skyblue;
+footer {background-color:black;
 text-align: center}
