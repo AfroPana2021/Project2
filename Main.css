@@ -95,6 +95,15 @@ body > aside > h3 {
 header {background-color:aquamarine;
         }
 
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: blueviolet;
+}
 nav > ul {line-height:3em;
       list-style-type:none;
       padding-left:1px;
